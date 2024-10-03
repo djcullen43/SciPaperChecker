@@ -1,7 +1,7 @@
 # AI-Generated Scientific Paper Detection
 ## Overview
 This project implements a machine learning model to detect AI-generated content in scientific papers. Using Word2Vec embeddings and a Bidirectional LSTM neural network, the model classifies scientific papers based on their title, abstract, and introduction as either original or AI-generated. The goal of the project is to identify potential instances of plagiarism or AI-assisted paper generation.
-![Alt text](F1Score.png)
+![Alt text](testdata.png)
 
 ## Features
 ### Text Preprocessing 
@@ -29,3 +29,5 @@ A Bidirectional LSTM model is trained to classify the papers as either AI-genera
 
 After training, the model is used to predict the label for new test data. The results are saved in a CSV file.
 
+## Confusion Matrix for Training Performance
+![Alt text](confusion_matrix.png)
