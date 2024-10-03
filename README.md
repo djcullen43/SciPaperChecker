@@ -27,3 +27,4 @@ A Bidirectional LSTM model is trained to classify the papers as either AI-genera
 ### Prediction:
 
 After training, the model is used to predict the label for new test data. The results are saved in a CSV file.
+
